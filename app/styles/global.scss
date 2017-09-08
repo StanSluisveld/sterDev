@@ -2,61 +2,24 @@
 @import 'fonts';
 
 body {
-  font-family: 'Montserrat', sans-serif;
-}
-
-/**
-* Bootstrap Overrides
-*/
-
-.jumbotron {
-  padding-top: 45px;
-  padding-bottom: 45px;
-  margin-bottom: 60px;
-  background: #18BC9C;
-
-  h1 {
-    margin-top: 0;
-    color: white;
-    text-align: center;
-  }
-}
-
-.panel {
-  @media #{$xs} {
-    margin-bottom: 30px;
-  }
-}
-
-.panel-default {
-  border-color: #d2d1d1;
-}
-
-.panel-default > .panel-heading {
-  background-color: $font-green;
-  border-color: lighten($font-green, 5%);
-  color: white;
-}
-
-.list-group {
-  @media #{$xs} {
-    margin-bottom: 30px;
-  }
-}
-
-.well {
-  @media #{$xs} {
-    margin-bottom: 0px;
-  }
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* navbar overrides */
 .navbar {
   margin-bottom: 0;
-  background: #2C3E50;
+  background-color: $nav-grey;
   padding: 15px 0;
   border: none;
+  border-radius: 0px;
 }
+
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+
 
 .navbar-default .navbar-toggle {
   border: none;
@@ -90,16 +53,21 @@ body {
 }
 
 .navbar-default .navbar-nav>li>a {
-  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: $font-green;
+  color: $orange;
+  
+  
+ 
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  background-color: $font-green;
-  color: white;
+  color: $orange;
+  background-color: $nav-grey;
 }
 
 @media (min-width: 768px) {

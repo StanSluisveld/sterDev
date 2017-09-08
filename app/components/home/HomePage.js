@@ -1,16 +1,11 @@
 import React from 'react';
-import {Jumbotron, Grid, Row, Col, Panel} from 'react-bootstrap';
+import {Grid, Row, Col, Panel} from 'react-bootstrap';
 import './HomePage.scss';
 
 class HomePage extends React.Component {
   render() {
     return (
       <div className="HomePage">
-        <Jumbotron>
-          <Grid>
-            <h1>Home Page</h1>
-          </Grid>
-        </Jumbotron>
         <Grid>
           <Row>
             <Col sm={6}>
