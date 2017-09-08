@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const GLOBALS = {
   'process.env.NODE_ENV': JSON.stringify('production')
@@ -31,11 +32,23 @@ module.exports = {
     new webpack.DefinePlugin(GLOBALS),
     new ExtractTextPlugin('bundle.css'),
     new webpack.optimize.DedupePlugin(),
-    new webpack.optimize.UglifyJsPlugin({compress: {warnings: false}})
+    new webpack.optimize.UglifyJsPlugin({compress: {warnings: false}}),
+    new CopyWebpackPlugin([
+      {
+        from: path.resolve(__dirname, './app/img'),
+        to: 'img'
+      }
+    ]),
   ] :
   [
     new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoErrorsPlugin()
+    new webpack.NoErrorsPlugin(),
+    new CopyWebpackPlugin([
+      {
+        from: path.resolve(__dirname, './app/img'),
+        to: 'img'
+      }
+    ])
   ],
   module: {
     loaders: [
