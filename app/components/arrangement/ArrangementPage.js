@@ -8,7 +8,7 @@ class AboutPage extends React.Component {
       <div className="AboutPage">
         <Jumbotron>
           <Grid>
-            <h1>About Page</h1>
+            <h1>Arrangement</h1>
           </Grid>
         </Jumbotron>
         <Grid>

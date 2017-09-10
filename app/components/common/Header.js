@@ -22,9 +22,11 @@ class Header extends React.Component {
                 </Col>
 
                 <Col sm={4} xs={6} >
+                <IndexLink to="">
                   <div className="logoDeSter">
                     <img src='..\img\logo-de-ster-nieuwkuijk.png' className="img-responsive" />
                   </div>
+                 </IndexLink> 
                 </Col>
 
                 <Col sm={4} xs={6} >
@@ -34,14 +36,13 @@ class Header extends React.Component {
                       <p>12:00 - 22:00</p>
                       <div className="social">
                           <a href="https://www.facebook.com/DeSterNieuwkuijkOfficial/" target="_blank" className="facebook"></a>
-                          <a href="/" target="_blank" className="instagram"></a>
-                          <a href="/" target="_blank" className="snapchat"></a>
-                      </div>
-                    
+                          <a href="https://www.instagram.com/de_ster_official" target="_blank" className="instagram"></a>
+                          <a href="https://www.snapchat.com/add/" target="_blank" className="snapchat"></a>
+                      </div> 
                   </div>
                 </Col>  
             </Row>
-          </Grid>
+          </Grid>   
         </div>
         
         <Navbar>
@@ -51,7 +52,7 @@ class Header extends React.Component {
           <Navbar.Collapse>
             <Nav>
               <IndexLinkContainer to="/">
-                <NavItem eventKey={1}>Home</NavItem>
+                <NavItem eventKey={1}>Home</NavItem>  
               </IndexLinkContainer>
 
               <LinkContainer to="/overons">

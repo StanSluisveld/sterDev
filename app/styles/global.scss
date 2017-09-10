@@ -1,6 +1,11 @@
 @import 'variables';
 @import 'fonts';
 
+//Slick slider
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
 html { 
   background: url(../img/bg.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -11,6 +16,21 @@ html {
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  background-color: transparent;
+}
+
+a, u{
+  text-decoration: none !important ; 
+}
+
+h3{
+  color: $orange;
+  text-align: center;
+  font-weight: 700;
+}
+
+.rowPadding{
+  padding: 0 0 40px 0;
 }
 
 /* navbar overrides */
@@ -27,6 +47,7 @@ body {
   width: 100%;
   text-align: center;
 }
+
 
 
 .navbar-default .navbar-toggle {
@@ -68,14 +89,26 @@ body {
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: $orange;
-  
-  
- 
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: $orange;
   background-color: $nav-grey;
+}
+
+
+
+.slick-dots{
+  bottom: 0;
+}
+
+.slick-dots li button:before{
+  font-size: 15px;
+}
+
+.slick-dots li.slick-active button:before{
+  color: $orange;
+  opacity: 1;
 }
 
 @media (min-width: 768px) {

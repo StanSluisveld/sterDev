@@ -1,5 +1,32 @@
 @import '../../styles/variables';
 
-.HomePage {
-  // Content here
+.homePage {
+  background-color: transparent;
+}
+
+
+
+.slick-dots li.slick-active button:before{
+  color: $orange;
+}
+
+.homepagePictogram{
+  display: block;
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.homepagePictogram:hover{
+  -webkit-transform: scale(1.05);
+  -moz-transforfoom: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
 }
