@@ -9,16 +9,10 @@ class HomePage extends React.Component {
         <Grid>
           <Row>
             <Col sm={6}>
-              <Panel header="Panel 1">
-                <p>Content </p>
-                <p>Content B</p>
-              </Panel>
+              
             </Col>
             <Col sm={6}>
-              <Panel header="Panel 2">
-                <p>Content A</p>
-                <p>Content B</p>
-              </Panel>
+             
             </Col>
           </Row>
         </Grid>

@@ -11,16 +11,34 @@ class Header extends React.Component {
         <div className="topHeader">
           <Grid>
             <Row>
-                <Col sm={4}>
-                <img src='../img/home.contant.pictorgram-03-03.png' />
+                <Col sm={4} className="hidden-sm" className="hidden-xs" >
+                  <div className="topContact">
+                    <span>
+                      <p>Nieuwkuijksestraat 73</p>
+                      <p>5253 AD Nieuwkuijk</p>
+                      <p>073-5112549</p>
+                    </span>
+                  </div>
                 </Col>
 
-                <Col sm={4}>
-                <h1>hoi</h1>
+                <Col sm={4} xs={6} >
+                  <div className="logoDeSter">
+                    <img src='..\img\logo-de-ster-nieuwkuijk.png' className="img-responsive" />
+                  </div>
                 </Col>
 
-                <Col sm={4}>
-                <h1>hoi</h1>
+                <Col sm={4} xs={6} >
+                <div className="topSocial">
+                    
+                      <p>Vandaag geopend van</p>
+                      <p>12:00 - 22:00</p>
+                      <div className="social">
+                          <a href="https://www.facebook.com/DeSterNieuwkuijkOfficial/" target="_blank" className="facebook"></a>
+                          <a href="/" target="_blank" className="instagram"></a>
+                          <a href="/" target="_blank" className="snapchat"></a>
+                      </div>
+                    
+                  </div>
                 </Col>  
             </Row>
           </Grid>
