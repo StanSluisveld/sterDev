@@ -8,7 +8,7 @@ class Footer extends React.Component {
       return (
         <div className="footer">  
             <Grid>
-                <h1 className="footerh1">COPYRIGHT TEKST</h1>
+                <p className="copyright">&copy; De Ster Nieuwkuijk</p>
             </Grid>
         </div>
       );

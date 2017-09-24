@@ -1,9 +1,7 @@
 @import 'variables';
 @import 'fonts';
 
-//Slick slider
-@import "~slick-carousel/slick/slick.css";
-@import "~slick-carousel/slick/slick-theme.css";
+@import "~react-responsive-carousel/lib/styles/carousel.min.css";
 
 
 html { 
@@ -23,10 +21,61 @@ a, u{
   text-decoration: none !important ; 
 }
 
+h1, h2, h3, h4{
+  color: $orange;
+  font-weight: 700;
+}
+
+p{
+  color: white;
+  margin-top: 20px;
+}
+
+.orange{
+  color: $orange;
+}
+
+.link{
+  color: $orange;
+}
+.subHeading{
+  font-weight: 400;
+}
+
+.number{
+  font-size: 20px;
+}
+
 h3{
   color: $orange;
   text-align: center;
   font-weight: 700;
+  font-size: 15px;
+}
+
+.icons{
+  margin-left: -35px;
+}
+
+.divider{
+  display: block;
+  position:relate;
+  background: white;
+  height: 5px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+h4.subHeading{
+  color: $white;
+}
+
+h4.subHeadingOrange{
+  color: $orange;
+}
+
+.bgContainer{
+  background-color: $bgblack;
 }
 
 .rowPadding{
@@ -96,10 +145,14 @@ h3{
   background-color: $nav-grey;
 }
 
+.carousel .control-dots .dot{
+  width:  15px;
+  height:15px;
+}
 
-
-.slick-dots{
-  bottom: 0;
+.control-dots .dot.selected{
+    background: $orange;
+    opacity: 1;
 }
 
 .slick-dots li button:before{
@@ -115,4 +168,24 @@ h3{
   .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
     margin-right: 30px;
   }
+ 
 }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    h3{
+      font-size: 24px;
+    }
+    p{
+      font-size: 20px;
+    }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }

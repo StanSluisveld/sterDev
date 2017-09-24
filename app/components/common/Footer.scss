@@ -1,10 +1,21 @@
 @import '../../styles/variables';
 
 .footer{
-    background-color: black;
-    height: 100px;
+    background-color: $bgblack;
+    height: 45px;
 }
 
-.footerh1{
+.copyright{
+    font-size: 15px;
     color: white;
+    float: right;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+  
+}
+
+.container{
+    height:100%;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import {Grid, Row, Col, NavItem} from 'react-bootstrap';
-import Slider from 'react-slick';
+import { Carousel } from 'react-responsive-carousel';
 import {IndexLinkContainer} from 'react-router-bootstrap';
 import Footer from '../common/Footer';
 
@@ -9,22 +9,24 @@ import './HomePage.scss';
 class HomePage extends React.Component {
   render() {
     var settings = {
-      autoplay: true,
-      arrows: false,
-      autoplaySpeed: 7500,
-      dots: true,
-      infinite: true,
-      speed: 1000,
+      showStatus: false,
+      infiniteLoop: true,
+      showThumbs: false,
+      autoPlay: true,
+      interval: 7500,
+
     };
+
+   
 
     return (
       <div className="homePage">
         <Grid>
           <Row className="rowPadding">
-            <Slider {...settings}>
-              <img src="../img/sliderPhoto1.jpg" />
-              <img src="../img/sliderPhoto2.jpg" />
-            </Slider>
+          <Carousel {...settings}> 
+            <img src="../img/ster.jpg" />
+            <img src="../img/sliderPhoto1.jpg" /> 
+            </Carousel>
           </Row>
 
           <Row className="rowPadding">
@@ -59,10 +61,10 @@ class HomePage extends React.Component {
           </Row>
 
           <Row className="rowPadding">
-            <Slider {...settings}>
-              <img src="../img/sliderPhoto1.jpg" />
-              <img src="../img/sliderPhoto2.jpg" />
-            </Slider>
+          <Carousel {...settings}> 
+            <img src="../img/sparerib.jpg" />
+            <img src="../img/sliderPhoto2.jpg" />
+          </Carousel>
           </Row>
         </Grid>
         <Footer />

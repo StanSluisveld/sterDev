@@ -6,6 +6,7 @@ import './Header.scss';
 
 class Header extends React.Component {
   render() {
+
     return (
       <div className="Header">
         <div className="topHeader">
@@ -16,7 +17,7 @@ class Header extends React.Component {
                     <span>
                       <p>Nieuwkuijksestraat 73</p>
                       <p>5253 AD Nieuwkuijk</p>
-                      <p>073-5112549</p>
+                      <a href="tel:0735112547" className="orange number">073 511 25 49</a>
                     </span>
                   </div>
                 </Col>
@@ -31,8 +32,7 @@ class Header extends React.Component {
 
                 <Col sm={4} xs={6} >
                 <div className="topSocial">
-                    
-                      <p>Vandaag geopend van</p>
+                      <p>Di tot Zo geopend van</p>
                       <p>12:00 - 22:00</p>
                       <div className="social">
                           <a href="https://www.facebook.com/DeSterNieuwkuijkOfficial/" target="_blank" className="facebook"></a>
@@ -45,7 +45,7 @@ class Header extends React.Component {
           </Grid>   
         </div>
         
-        <Navbar>
+        <Navbar collapseOnSelect>
           <Navbar.Header>
             <Navbar.Toggle />
           </Navbar.Header>
