@@ -24,8 +24,8 @@ class AboutPage extends React.Component {
         <Row className="rowPadding">
         <Carousel {...settings}> 
             <img src="../img/ijs.jpg" />
-            <img src="../img/sliderPhoto2.jpg" />  
-            <img src="../img/ster.jpg" />  
+            <img src="../img/foto2.jpg" />  
+            <img src="../img/sliderPhoto1.jpg" />  
             <img src="../img/sparerib.jpg" />  
           </Carousel>
         </Row>
@@ -115,10 +115,10 @@ Benieuwd naar de acties van deze maand?  <br />
             <Col xs={10}>
             <h2>Bestellen</h2>
             <p>
-            Wil je graag iets van te voren bestellen. Dat kan telefonisch via telefoonnummer <span className="orange">073-5112549.</span><br />
+            Wil je graag iets van te voren bestellen. Dat kan telefonisch via telefoonnummer <span className="orange">073-5112547.</span><br />
             Of online bestellen 
             <br /> <br />
-            Wil je een bestelling doen voor meer dan 20 personen geef dit dan tijdig door. Heb je  vragen of opmerkingen over jouw bestelling? Geef ons dan een belletje <span className="orange">073-5112549.</span> 
+            Wil je een bestelling doen voor meer dan 20 personen geef dit dan tijdig door. Heb je  vragen of opmerkingen over jouw bestelling? Geef ons dan een belletje <span className="orange">073-5112547.</span> 
             <br /> <br />
             Bedrijven<br />
             Wij begrijpen dat je tijdens werktijd niet altijd tijd hebt om jouw bestelling op te komen halen. Daarom bieden we voor bestellingen boven de €25,- een bezorgservice.  

@@ -23,9 +23,8 @@ class AboutPage extends React.Component {
         <Grid>
         <Row className="rowPadding">
         <Carousel {...settings}> 
-            <img src="../img/ster.jpg" />
-            <img src="../img/sliderPhoto2.jpg" />
-            <img src="../img/sliderPhoto1.jpg" />    
+            <img src="../img/overons1.jpg" />
+            <img src="../img/overons2.jpg" /> 
           </Carousel>
         </Row>
 
@@ -185,7 +184,7 @@ class AboutPage extends React.Component {
                </ul>
 
               Spreekt dit je allemaal wel aan? Neem dan contact met ons op of stuur je CV en motivatiebrief naar 
-              <a href="mailto:info@sternieuwkuijk" className="orange"> info@sterieuwkuijk.nl </a> en wie weet hoor jij binnenkort bij ons team!
+              <a href="mailto:info@sternieuwkuijk" className="orange"> info@sternieuwkuijk.nl </a> en wie weet hoor jij binnenkort bij ons team!
             </p>
             
             </Col>

@@ -19,8 +19,8 @@ class AboutPage extends React.Component {
         <Grid>
           <Row className="rowPadding">
           <Carousel {...settings}> 
-              <img src="../img/ster.jpg" />
-              <img src="../img/sparerib.jpg" />
+              <img src="../img/event1.jpg" />
+              <img src="../img/event2.jpg" />
             </Carousel>
           </Row>
           <Row className="rowPadding">

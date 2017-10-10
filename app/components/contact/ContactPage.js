@@ -21,8 +21,8 @@ class ContactPage extends React.Component {
         <Grid>
           <Row className="rowPadding">
           <Carousel {...settings}> 
-              <img src="../img/sliderPhoto1.jpg" />
-              <img src="../img/sliderPhoto2.jpg" />
+              <img src="../img/contact1.jpg" />
+              <img src="../img/event1.jpg" />
             </Carousel>
           </Row>
           <Row className="rowPadding">

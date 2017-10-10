@@ -17,7 +17,7 @@ class Header extends React.Component {
                     <span>
                       <p>Nieuwkuijksestraat 73</p>
                       <p>5253 AD Nieuwkuijk</p>
-                      <a href="tel:0735112547" className="orange number">073 511 25 49</a>
+                      <a href="tel:0735112547" className="orange number">073 511 25 47</a>
                     </span>
                   </div>
                 </Col>
@@ -68,7 +68,7 @@ class Header extends React.Component {
               </LinkContainer>
 
               <LinkContainer to="/evenementen">
-                <NavItem eventKey={5}>Evenementen</NavItem>
+                <NavItem eventKey={5}>Tickets</NavItem>
               </LinkContainer>
 
               <LinkContainer to="/contact">

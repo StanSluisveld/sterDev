@@ -24,8 +24,8 @@ class HomePage extends React.Component {
         <Grid>
           <Row className="rowPadding">
           <Carousel {...settings}> 
-            <img src="../img/ster.jpg" />
-            <img src="../img/sliderPhoto1.jpg" /> 
+            <img src="../img/home1.jpg" />
+            <img src="../img/home2.jpg" /> 
             </Carousel>
           </Row>
 
@@ -62,8 +62,8 @@ class HomePage extends React.Component {
 
           <Row className="rowPadding">
           <Carousel {...settings}> 
-            <img src="../img/sparerib.jpg" />
-            <img src="../img/sliderPhoto2.jpg" />
+            <img src="../img/event1.jpg" />
+            <img src="../img/event2.jpg" />
           </Carousel>
           </Row>
         </Grid>
