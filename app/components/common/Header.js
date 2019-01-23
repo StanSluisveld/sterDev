@@ -33,7 +33,7 @@ class Header extends React.Component {
                 <Col sm={4} xs={6} >
                 <div className="topSocial">
                       <p>Di tot Zo geopend van</p>
-                      <p>12:00 - 22:00</p>
+                      <p>12:00 - 21:00</p>
                       <div className="social">
                           <a href="https://www.facebook.com/DeSterNieuwkuijkOfficial/" target="_blank" className="facebook"></a>
                           <a href="https://www.instagram.com/de_ster_official" target="_blank" className="instagram"></a>

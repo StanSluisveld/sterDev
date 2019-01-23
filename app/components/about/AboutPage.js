@@ -138,7 +138,7 @@ class AboutPage extends React.Component {
               Cafetaria:<br />
               Zomertijd<br />
               Maandagen gesloten<br />
-              Dinsdag tot en met zondag van 12:00 tot 22:00u geopend<br />
+              Dinsdag tot en met zondag van 12:00 tot 21:00u geopend<br />
           </p>
           <p> 
               Wintertijd<br />
