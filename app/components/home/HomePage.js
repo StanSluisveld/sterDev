@@ -26,12 +26,17 @@ class HomePage extends React.Component {
           <Carousel {...settings}> 
             <img src="../img/home1.jpg" />
             <img src="../img/home2.jpg" /> 
-            </Carousel>
+            </Carousel>  
           </Row>
 
           <Row className="rowPadding">
+            <img className="carnaval-ster" src="../img/carnavalster.jpeg" />
+          </Row>
+
+
+          <Row className="rowPadding">
             <Col xs={4} >
-            <IndexLinkContainer to="/cafetaria">
+            <IndexLinkContainer className="link-to" to="/cafetaria">
               <NavItem eventKey={1}>
                   <img className="homepagePictogram" src="../img/cafetariaPictogram.png" />
                   <h3>Cafetaria</h3>
@@ -41,7 +46,7 @@ class HomePage extends React.Component {
             </Col>
 
             <Col xs={4} >
-              <IndexLinkContainer to="/arrangementen">
+              <IndexLinkContainer className="link-to" to="/arrangementen">
                 <NavItem eventKey={2}
                   ><img className="homepagePictogram" src="../img/eventPictogram.png" /> 
                   <h3>Arrangementen</h3>
@@ -51,7 +56,7 @@ class HomePage extends React.Component {
             </Col>
 
             <Col xs={4} >    
-              <IndexLinkContainer to="/contact">
+              <IndexLinkContainer className="link-to" to="/contact">
                 <NavItem eventKey={3}>
                   <img className="homepagePictogram" src="../img/contactPictogram.png" />
                   <h3>Contact</h3>
