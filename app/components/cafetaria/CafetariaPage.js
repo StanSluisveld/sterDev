@@ -87,6 +87,17 @@ class AboutPage extends React.Component {
 
           <Row className="rowPadding" id="actie">
             <Col xs={10}>
+          <h2>Menu</h2>
+           <p>
+              <a href="../img/menukaart-jan.pdf" target="_blank" className="orange"> Klik op de deze link voor het menu te bekijken/downloaden</a>  
+           </p>  
+            </Col>
+          </Row>
+
+          <span className="divider"></span>
+
+          <Row className="rowPadding" id="actie">
+            <Col xs={10}>
           <h2>Acties</h2>
            <p>
            Sparen<br />
@@ -108,12 +119,12 @@ Benieuwd naar de acties van deze maand?  <br />
             <h2>Bestellen</h2>
             <p>
             Wil je graag iets van te voren bestellen. Dat kan telefonisch via telefoonnummer <span className="orange">073-5112547.</span><br />
-            Of online bestellen 
             <br /> <br />
             Wil je een bestelling doen voor meer dan 20 personen geef dit dan tijdig door. Heb je  vragen of opmerkingen over jouw bestelling? Geef ons dan een belletje <span className="orange">073-5112547.</span> 
             <br /> <br />
             Bedrijven<br />
-            Wij begrijpen dat je tijdens werktijd niet altijd tijd hebt om jouw bestelling op te komen halen. Daarom bieden we voor bestellingen boven de €25,- een bezorgservice.  
+            Wij begrijpen dat je tijdens werktijd niet altijd tijd hebt om jouw bestelling op te komen halen. Daarom bieden we voor bestellingen boven de €25,- een bezorgservice.  <br /><br />
+            <a href="../img/bestelkaart.pdf" target="_blank" className="orange"> Klik op de deze link om het bestelformulier te bekijken/downloaden</a>  
 
  
  

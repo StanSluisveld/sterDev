@@ -74,6 +74,7 @@
     "react-responsive-carousel": "^3.1.26",
     "react-router": "^2.7.0",
     "react-router-bootstrap": "^0.23.1",
+    "react-scrollspy": "^3.3.5",
     "react-slick": "^0.15.4"
   }
 }
