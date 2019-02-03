@@ -24,14 +24,6 @@ class EventPage extends React.Component {
         autoPlay: true,
         interval: 7500,
       };
-
-      var Eventics = {};
-      Eventics.Application = {
-          containerId: "shop-iframe",
-          channel: "6f59ogwmxktxke5yneczcdz5ll8dinrifdx1l4md",
-          width: "auto",
-          height: "950"
-      }; 
       
       return (
         
@@ -47,7 +39,7 @@ class EventPage extends React.Component {
             <Row className="rowPadding">
               <Col xs={12}>
                  <h1>Tickets</h1>
-                 <div id="shop-iframe"></div>
+                 <iframe src="https://ticketpoint.nl/categorie/de-ster-nieuwkuijk/#frame" width="1140" height="500" frameborder="0"></iframe>
               </Col>
              </Row>
           </Grid>
