@@ -33,6 +33,7 @@ p{
 
 .orange{
   color: $orange;
+  font-size: 22px;
 }
 
 .link{
@@ -43,6 +44,11 @@ p{
 }
 
 .number{
+  display: block;
+  font-size: 20px;
+}
+
+.topContact{
   font-size: 20px;
 }
 

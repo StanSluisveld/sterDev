@@ -30,11 +30,6 @@ class HomePage extends React.Component {
           </Row>
 
           <Row className="rowPadding">
-            <img className="carnaval-ster" src="../img/carnavalster.jpeg" />
-          </Row>
-
-
-          <Row className="rowPadding">
             <Col xs={4} >
             <IndexLinkContainer className="link-to" to="/cafetaria">
               <NavItem eventKey={1}>

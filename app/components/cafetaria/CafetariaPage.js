@@ -73,11 +73,18 @@ class AboutPage extends React.Component {
             <Col xs={10}>
             <h2 className="subHeading">Openingstijden </h2>
             <p>
-                Het gehele jaar:<br />
-                Maandagen gesloten<br />
-                Dinsdag tot en met zondag van 12:00 tot 21:00u geopend<br /><br />
-                Met de feestdagen zijn wij geopend vanaf 15:00 tot 20:00u<br /><br />
-                
+                Maandag gesloten <br />
+                Dinsdag tot en met zondag van 12 tot 21.00 uur geopend. <br /><br />
+
+                Eerste paasdag gesloten <br />
+                Tweede paasdag van 16.00 tot 21.00 uur geopend <br /><br />
+
+                Koningsdag gesloten <br />
+
+                Eerste en tweede kerstdag zijn wij gesloten <br /><br />
+
+                Oud op nieuw geopend van 12:00 tot 18.00 <br /><br />
+
                 Evenement tijden worden onder evenementen getoond  
             </p>  
             </Col>
@@ -101,9 +108,9 @@ class AboutPage extends React.Component {
           <h2>Acties</h2>
            <p>
            Sparen<br />
-            Vaste klanten kunnen profiteren van extra veel voordeel! Met de Plaza spaarsleutel spaar je snel en eenvoudig voor korting. Want bij besteding van iedere €3,50 ontvang je een punt op jouw spaarsleutel. Wanneer je 25 punten hebt gespaard kun je deze verzilveren en korting ontvangen! 
+           Vaste klanten kunnen profiteren van extra veel voordeel! Wij hebben een spaarpas waarmee per euro een punt wordt gespaard. Bij 100 punten ontvangt je €3,50 korting op uw bestelling. 
             <br />
-            Heb je nog geen spaarsleutel? Deze kun je bij ons ophalen. 
+            Ook doen wij mee met Piggy! Heb je nog geen Piggypas? Deze is verkrijgbaar bij ons in de cafetaria. 
             <br />
             <br />
 Benieuwd naar de acties van deze maand?  <br />
@@ -118,9 +125,9 @@ Benieuwd naar de acties van deze maand?  <br />
             <Col xs={10}>
             <h2>Bestellen</h2>
             <p>
-            Wil je graag iets van te voren bestellen. Dat kan telefonisch via telefoonnummer <span className="orange">073-5112547.</span><br />
-            <br /> <br />
-            Wil je een bestelling doen voor meer dan 20 personen geef dit dan tijdig door. Heb je  vragen of opmerkingen over jouw bestelling? Geef ons dan een belletje <span className="orange">073-5112547.</span> 
+            Wil je graag iets van tevoren bestellen? Dat kan telefonisch via telefoonnummer <span className="orange">073-5112547</span>,of via de Plaza app! <br />
+            <br /> 
+            Wil je een bestelling doen voor meer dan 20 personen geef dit dan tijdig door.<br /> Heb je  vragen of opmerkingen over jouw bestelling? Geef ons dan een belletje <span className="orange">073-5112547.</span> 
             <br /> <br />
             Bedrijven<br />
             Wij begrijpen dat je tijdens werktijd niet altijd tijd hebt om jouw bestelling op te komen halen. Daarom bieden we voor bestellingen boven de €25,- een bezorgservice.  <br /><br />

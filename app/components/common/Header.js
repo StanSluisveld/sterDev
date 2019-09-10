@@ -15,9 +15,10 @@ class Header extends React.Component {
                 <Col sm={4} className="hidden-sm" className="hidden-xs" >
                   <div className="topContact">
                     <span>
-                      <p>Nieuwkuijksestraat 73</p>
-                      <p>5253 AD Nieuwkuijk</p>
+                      <div>Nieuwkuijksestraat 73</div>
+                      <div>5253 AD Nieuwkuijk</div>
                       <a href="tel:0735112547" className="orange number">073 511 25 47</a>
+                      <a href="mailto:info@sternieuwkuijk.nl" className="orange number">info@sternieuwkuijk.nl</a>
                     </span>
                   </div>
                 </Col>
@@ -35,9 +36,8 @@ class Header extends React.Component {
                       <p>Di tot Zo geopend van</p>
                       <p>12:00 - 21:00</p>
                       <div className="social">
-                          <a href="https://www.facebook.com/DeSterNieuwkuijkOfficial/" target="_blank" className="facebook"></a>
+                          <a href="https://www.facebook.com/sternieuwkuijk/" target="_blank" className="facebook"></a>
                           <a href="https://www.instagram.com/de_ster_official" target="_blank" className="instagram"></a>
-                          <a href="https://www.snapchat.com/add/" target="_blank" className="snapchat"></a>
                       </div> 
                   </div>
                 </Col>  

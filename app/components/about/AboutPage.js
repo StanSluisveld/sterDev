@@ -136,18 +136,12 @@ class AboutPage extends React.Component {
           <h2>Openingstijden</h2>
            <p>
               Cafetaria:<br />
-              Zomertijd<br />
               Maandagen gesloten<br />
-              Dinsdag tot en met zondag van 12:00 tot 21:00u geopend<br />
-          </p>
-          <p> 
-              Wintertijd<br />
-              Maandagen gesloten<br />
-              Dinsdag tot en met zondag van 12:00 tot 21:00u geopend<br /><br />
-              
+              Dinsdag tot en met zondag van 12:00 tot 21:00u geopend<br /> <br />
+
               Met de feestdagen zijn wij geopend vanaf 15:00 tot 20:00u<br /><br />
               
-              Evenement tijden worden onder evenementen getoond  
+              Evenement tijden worden onder evenementen getoond.  
            </p>  
             </Col>
           </Row>
