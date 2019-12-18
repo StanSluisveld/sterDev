@@ -17,16 +17,16 @@ class HomePage extends React.Component {
 
     };
 
-   
+
 
     return (
       <div className="homePage">
         <Grid>
           <Row className="rowPadding">
-          <Carousel {...settings}> 
+          <Carousel {...settings}>
             <img src="../img/home1.jpg" />
-            <img src="../img/home2.jpg" /> 
-            </Carousel>  
+            <img src="../img/home2.jpg" />
+            </Carousel>
           </Row>
 
           <Row className="rowPadding">
@@ -36,21 +36,21 @@ class HomePage extends React.Component {
                   <img className="homepagePictogram" src="../img/cafetariaPictogram.png" />
                   <h3>Cafetaria</h3>
                </NavItem>
-              
+
             </IndexLinkContainer>
             </Col>
 
             <Col xs={4} >
               <IndexLinkContainer className="link-to" to="/arrangementen">
                 <NavItem eventKey={2}
-                  ><img className="homepagePictogram" src="../img/eventPictogram.png" /> 
+                  ><img className="homepagePictogram" src="../img/eventPictogram.png" />
                   <h3>Arrangementen</h3>
                   </NavItem>
-                
+
               </IndexLinkContainer>
             </Col>
 
-            <Col xs={4} >    
+            <Col xs={4} >
               <IndexLinkContainer className="link-to" to="/contact">
                 <NavItem eventKey={3}>
                   <img className="homepagePictogram" src="../img/contactPictogram.png" />
@@ -60,15 +60,46 @@ class HomePage extends React.Component {
             </Col>
           </Row>
 
+        </Grid>
+        <div className="bgContainer">
+          <Grid>
+            <Row>
+              <Col xs={12}>
+                <h2>Binnenkort bij de Ster</h2>
+              </Col>
+            </Row>
+            <Row className="rowPadding">
+             <Col sm={6} xs={12}>
+               <h2 className="subHeading">1 december 2019 </h2>
+               <p>Op zondag 1 december geeft Pietenkoor de schoorsteen door hun spetterende Sinterklaasshow in De Ster in Nieuwkuijk. De show begint om 16:00u en duurt 1,5uur. De deuren gaan om 15:00u open en entree is gratis! Kom je mee dansen en zingen met ruim 20 pieten op onze eigen nummers? </p>
+             </Col>
+             <Col sm={6} xs={12}>
+               <img src="../img/pietenkoor.jpg" />
+             </Col>
+            </Row>
+            <Row className="rowPadding">
+              <Col sm={6} xs={12}>
+                <h2 className="subHeading">18 januari 2020 </h2>
+                <p>De beste Rock covers brengen we ten gehore, special Tribute to Joe Cocker</p>
+                <p>Een band met enkele muzikanten die in het verleden al eens eerder met elkaar muziek hebben gemaakt. Het repertoire van de band bevat het tijdperk van de jaren 60-70, een tijdperk waar musiceren om bezieling ging. Dat is wat de band laat horen met songs van Eric Clapton, Tina Turner, The Free, Golden Earring, Deep Purple,Santana, The Doors, en Joe Cocker, die eens heeft gezegd Never Forget the old ones. De band is met laatst genoemde zeer intensief aan het repeteren om in 2014 klaar te staan om te laten zien en horen wat ze in hun mars hebben.</p>
+              </Col>
+              <Col sm={6} xs={12}>
+                <img src="../img/joecover.jpeg" />
+              </Col>
+            </Row>
+          </Grid>
+        </div>
+        <Grid>
+
           <Row className="rowPadding">
-          <Carousel {...settings}> 
+          <Carousel {...settings}>
             <img src="../img/event1.jpg" />
             <img src="../img/event2.jpg" />
           </Carousel>
           </Row>
         </Grid>
         <Footer />
-      </div> 
+      </div>
     );
   }
 }

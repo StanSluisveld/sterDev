@@ -15,6 +15,15 @@
   list-style: none;
 }
 
+img{
+  max-width: 100%;
+}
+
+.annoucement{
+  text-align: center;
+  margin-top: 50px;
+}
+
 
 .slick-dots li.slick-active button:before{
   color: $orange;
