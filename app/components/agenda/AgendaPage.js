@@ -41,15 +41,24 @@ class AboutPage extends React.Component {
                 <p>Voor tickets <a className="orange" href="https://shop.eventix.io/3bcea390-bf9e-11e9-b900-e913ca0d7845/tickets" target="_blank">klik hier</a></p>
              </Col>
              <Col sm={6} xs={12}>
-               <img src="../img/pietenkoor.jpg" />
+               {/* <img src="../img/pietenkoor.jpg" /> */}
              </Col>
             </Row>
 
             <Row className="rowPadding">
             <Col sm={6} xs={12}>
-               <img src="../img/pietenkoor.jpg" />
-             </Col>
-             <Col sm={6} xs={12}>
+                <img src="../img/joecover.jpeg" />
+              </Col>
+              <Col sm={6} xs={12}>
+                <h2 className="subHeading">18 januari 2020 </h2>
+                <p>De beste Rock covers brengen we ten gehore, special Tribute to Joe Cocker</p>
+                <p>Een band met enkele muzikanten die in het verleden al eens eerder met elkaar muziek hebben gemaakt. Het repertoire van de band bevat het tijdperk van de jaren 60-70, een tijdperk waar musiceren om bezieling ging. Dat is wat de band laat horen met songs van Eric Clapton, Tina Turner, The Free, Golden Earring, Deep Purple,Santana, The Doors, en Joe Cocker, die eens heeft gezegd Never Forget the old ones. De band is met laatst genoemde zeer intensief aan het repeteren om in 2014 klaar te staan om te laten zien en horen wat ze in hun mars hebben.</p>
+              </Col>
+
+            </Row>
+
+            <Row className="rowPadding">
+            <Col sm={6} xs={12}>
              <h2 className="subHeading">DanceQuake Valentine</h2>
                <h4>15 feb 2020</h4>
                <p>DanceQuake Valentine's Edition</p>
@@ -63,9 +72,15 @@ class AboutPage extends React.Component {
                 <p>Voor meer informatie bezoek de <a className="orange" href="https://www.facebook.com/events/403312940318500/" target="_blank">facebookpagina.</a></p>
                 <p>Voor tickets <a className="orange" href="https://shop.eventix.io/0dce3bf0-ec2c-11e9-854d-8fadb793397d/tickets" target="_blank">klik hier</a></p>
              </Col>
+            <Col sm={6} xs={12}>
+               {/* <img src="../img/pietenkoor.jpg" /> */}
+             </Col>
             </Row>
 
             <Row className="rowPadding">
+            <Col sm={6} xs={12}>
+               {/* <img src="../img/pietenkoor.jpg" /> */}
+             </Col>
              <Col sm={6} xs={12}>
                <h2 className="subHeading">DanceQuake Wenny's Shake</h2>
                <h4>14 maart 2020</h4>
@@ -74,9 +89,7 @@ class AboutPage extends React.Component {
                 <p>Voor meer informatie bezoek de <a className="orange" href="https://www.facebook.com/events/654180178459316/" target="_blank">facebookpagina.</a></p>
                 <p>Voor tickets <a className="orange" href="https://shop.eventix.io/a71426a0-bf9b-11e9-a90a-e7aae89bc95b/tickets" target="_blank">klik hier</a></p>
              </Col>
-             <Col sm={6} xs={12}>
-               <img src="../img/pietenkoor.jpg" />
-             </Col>
+
             </Row>
 
           </Grid>

@@ -4,6 +4,7 @@ import App from './components/App';
 
 import HomePage from './components/home/HomePage';
 import AboutPage from './components/about/AboutPage';
+import EllefPage from './components/ellef/EllefPage';
 import ArrangementPage from './components/arrangement/ArrangementPage';
 import CafetariaPage from './components/cafetaria/CafetariaPage'; 
 import AgendaPage from './components/agenda/AgendaPage'; 
@@ -14,6 +15,7 @@ export default (
   <Route path="/" component={App}>
     <IndexRoute component={HomePage} />
     <Route path="overons" component={AboutPage} />
+    <Route path="ellefsteruren" component={EllefPage} />
     <Route path="arrangementen" component={ArrangementPage} />
     <Route path="cafetaria" component={CafetariaPage} />
     <Route path="agenda" component={AgendaPage} />

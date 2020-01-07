@@ -69,15 +69,6 @@ class HomePage extends React.Component {
               </Col>
             </Row>
             <Row className="rowPadding">
-             <Col sm={6} xs={12}>
-               <h2 className="subHeading">1 december 2019 </h2>
-               <p>Op zondag 1 december geeft Pietenkoor de schoorsteen door hun spetterende Sinterklaasshow in De Ster in Nieuwkuijk. De show begint om 16:00u en duurt 1,5uur. De deuren gaan om 15:00u open en entree is gratis! Kom je mee dansen en zingen met ruim 20 pieten op onze eigen nummers? </p>
-             </Col>
-             <Col sm={6} xs={12}>
-               <img src="../img/pietenkoor.jpg" />
-             </Col>
-            </Row>
-            <Row className="rowPadding">
               <Col sm={6} xs={12}>
                 <h2 className="subHeading">18 januari 2020 </h2>
                 <p>De beste Rock covers brengen we ten gehore, special Tribute to Joe Cocker</p>
