@@ -2,6 +2,11 @@ import React from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
 import { Carousel } from 'react-responsive-carousel';
 import Footer from '../common/Footer';
+import ReactPixel from 'react-facebook-pixel';
+
+ReactPixel.init('608932913173493');
+ReactPixel.pageView();
+ 
 
 class AboutPage extends React.Component {
   render() {
@@ -13,7 +18,12 @@ class AboutPage extends React.Component {
       interval: 7500,
     };
 
+    ReactPixel.init('608932913173493');
+    ReactPixel.pageView();
+
     return (
+      
+    
       <div className="ContactPage">
         <Grid>
           <Row className="center-image">
@@ -34,7 +44,7 @@ class AboutPage extends React.Component {
             <Row className="rowPadding">
              <Col sm={12} xs={12}>
                <p>Ben jij klaar voor het feest van het jaar? De 11 Ster Uren komt er weer aan en wat hebben wij er zin in!</p>
-               <p>Zet 8 februari maar alvast in je agenda want met onder andere Darkraver, Smerig diskjochies, DJ crew on tour, Doorweekt en Vieze jack gaan we er weer een super feestje van maken die je echt niet wil missen!</p>
+               <p>Zet 8 februari maar alvast in je agenda want met onder andere Darkraver, Smerrig Diskjochies, DJ crew on tour, Doorweekt en Vieze jack gaan we er weer een super feestje van maken die je echt niet wil missen!</p>
              
               <h2 className="subHeading">Bestel nu je tickets online!</h2>
               <p>Het evenement is op 8 februari 2020 en de deuren zijn vanaf 20:30 geopend tot ongeveer 04:00.</p>

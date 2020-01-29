@@ -70,7 +70,7 @@ class HomePage extends React.Component {
             </Row>
             <Row className="rowPadding">
               <Col sm={6} xs={12}>
-                <h2 className="subHeading">18 januari 2020 </h2>
+                <h2 className="subHeading">7 maart 2020 </h2>
                 <p>De beste Rock covers brengen we ten gehore, special Tribute to Joe Cocker</p>
                 <p>Een band met enkele muzikanten die in het verleden al eens eerder met elkaar muziek hebben gemaakt. Het repertoire van de band bevat het tijdperk van de jaren 60-70, een tijdperk waar musiceren om bezieling ging. Dat is wat de band laat horen met songs van Eric Clapton, Tina Turner, The Free, Golden Earring, Deep Purple,Santana, The Doors, en Joe Cocker, die eens heeft gezegd Never Forget the old ones. De band is met laatst genoemde zeer intensief aan het repeteren om in 2014 klaar te staan om te laten zien en horen wat ze in hun mars hebben.</p>
               </Col>
