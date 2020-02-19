@@ -65,17 +65,21 @@ class HomePage extends React.Component {
           <Grid>
             <Row>
               <Col xs={12}>
-                <h2>Binnenkort bij de Ster</h2>
+                <h1>Carnaval 2020 bij de Ster</h1>
+              </Col>
+            </Row>
+            <Row className="rowPadding">
+              <Col xs={12}>
+                <p>Carnaval, HET feest van het jaar! Daar moet jij bij zijn geweest, en waar vier je dat beter als in de Ster in Nieuwkuijk? Precies! Vrijdag gaan wij los met Stuk TV, Tomcio en Dj Stefan de Hart. Zaterdag gaat het feestje maximaal door met Kalvijn en de Doorweekt Dj's! Scoor een combi ticket en betaal maar €10,-! Zo ben jij verzekerd van een onvergetelijke carnaval.</p>
+                <p>Kijk voor meer informatie op de agenda of bestel gelijk je tickets bij de ticket pagina!</p>
               </Col>
             </Row>
             <Row className="rowPadding">
               <Col sm={6} xs={12}>
-                <h2 className="subHeading">7 maart 2020 </h2>
-                <p>De beste Rock covers brengen we ten gehore, special Tribute to Joe Cocker</p>
-                <p>Een band met enkele muzikanten die in het verleden al eens eerder met elkaar muziek hebben gemaakt. Het repertoire van de band bevat het tijdperk van de jaren 60-70, een tijdperk waar musiceren om bezieling ging. Dat is wat de band laat horen met songs van Eric Clapton, Tina Turner, The Free, Golden Earring, Deep Purple,Santana, The Doors, en Joe Cocker, die eens heeft gezegd Never Forget the old ones. De band is met laatst genoemde zeer intensief aan het repeteren om in 2014 klaar te staan om te laten zien en horen wat ze in hun mars hebben.</p>
-              </Col>
+                <img src="../img/carnaval1.jpg" />
+               </Col>
               <Col sm={6} xs={12}>
-                <img src="../img/joecover.jpeg" />
+                <img src="../img/carnaval2.jpg" />
               </Col>
             </Row>
           </Grid>

@@ -30,19 +30,53 @@ class AboutPage extends React.Component {
                 <h2>Agenda</h2>
               </Col>
             </Row>
+            <Row>
+                <Col xs={12}>
+                    <h1>Carnaval 2020 bij de Ster</h1>
+                </Col>
+            </Row>
             <Row className="rowPadding">
-             <Col sm={6} xs={12}>
-               <h2 className="subHeading">DanceQuake New Years Shake</h2>
-               <h4>31 december 2019</h4>
-               <p>Beleef de meest fantastische jaarwisseling en join DanceQuake New Years Shake!</p>
-               <p>DanceQuake Events nodigt je uit voor het meest gezellige oudejaarsfeest in Nederland!
-                We hebben een machtige line-up weten te boeken en in deze speciale editie wordt alles natuurlijk sprankelend aangekleed om jullie een onvergetelijke jaarwisseling te bezorgen! </p>
-                <p>Voor meer informatie bezoek de <a className="orange" href="https://www.facebook.com/events/2554174834632983/" target="_blank">facebookpagina.</a></p>
-                <p>Voor tickets <a className="orange" href="https://shop.eventix.io/3bcea390-bf9e-11e9-b900-e913ca0d7845/tickets" target="_blank">klik hier</a></p>
-             </Col>
-             <Col sm={6} xs={12}>
-               {/* <img src="../img/pietenkoor.jpg" /> */}
-             </Col>
+                <Col xs={12}>
+                    <p>Carnaval, HET feest van het jaar! Daar moet jij bij zijn geweest, en waar vier je dat beter als in de Ster in Nieuwkuijk? Precies! Vrijdag gaan wij los met Stuk TV, Tomcio en Dj Stefan de Hart. Zaterdag gaat het feestje maximaal door met Kalvijn en de Doorweekt Dj's! Scoor een combi ticket en betaal maar €10,-! Zo ben jij verzekerd van een onvergetelijke carnaval.</p>
+                    <p>Bestel je tickets gelijk op de ticket pagina!</p>
+                </Col>
+            </Row>
+            <Row className="rowPadding">
+                <Col sm={6} xs={12}>
+                    <h2 className="subHeading">Carnaval 2020!</h2>
+                    <h4>21 & 22 februari 2020</h4>
+                    <p>Ticketprijs: <br />
+                        vrijdag = €7,50 <br />
+                        zaterdag = €7,50 <br />
+                        combi vrijdag en zaterdag = €10,- <br /><br />
+
+                        Tijdstip deuren open: 21:00 <br />
+                        Tijdstip einde: 03:00 <br />
+                        Leeftijdsindicatie: 15+ <br />
+
+
+                    </p>
+                </Col>
+                <Col sm={6} xs={12}>
+                    <img src="../img/carnaval1.jpg" />
+
+                </Col>
+            </Row>
+            <Row className="rowPadding">
+                <Col sm={6} xs={12}>
+                    <img src="../img/carnaval2.jpg" />
+
+                </Col>
+                <Col sm={6} xs={12}>
+                    <h2 className="subHeading">Kindermiddag Carnaval 2020!</h2>
+                    <h4>23 & 24 februari 2020</h4>
+                    <p>Ticketprijs: <br />
+                    <span className="orange">GRATIS</span><br /> <br />
+                        Tijdstip deuren open: 14:00 <br />
+                        Tijdstip einde: 20:00 (ongeveer) <br />
+                        Leeftijdsindicatie: Alle leeftijden <br />
+                    </p>
+                </Col>
             </Row>
 
             <Row className="rowPadding">
@@ -109,15 +143,11 @@ class AboutPage extends React.Component {
 
                 <p>Voor tickets en meer informatie <a className="orange" href="https://www.eventbrite.nl/e/tickets-fan-cafe-tv-opnames-86337111625" target="_blank">klik hier</a></p>
              </Col>
-
             </Row>
-
           </Grid>
         </div>
         <Footer />
       </div>
-
-
     );
   }
 }
