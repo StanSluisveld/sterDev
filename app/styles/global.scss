@@ -4,8 +4,8 @@
 @import "~react-responsive-carousel/lib/styles/carousel.min.css";
 
 
-html { 
-  background: url(../img/bg.jpg) no-repeat center center fixed; 
+html {
+  background: url(../img/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -18,7 +18,7 @@ body {
 }
 
 a, u{
-  text-decoration: none !important ; 
+  text-decoration: none !important ;
 }
 
 h1, h2, h3, h4{
@@ -41,6 +41,10 @@ p{
 }
 .subHeading{
   font-weight: 400;
+}
+
+.center{
+  text-align: center;
 }
 
 .number{
@@ -165,7 +169,7 @@ h4.subHeadingOrange{
 .navbar-default .navbar-nav>li>a {
   color: white;
   font-size: 20px;
-  
+
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -200,11 +204,11 @@ h4.subHeadingOrange{
   .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
     margin-right: 30px;
   }
- 
+
 }
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { 
+@media (min-width: 576px) {
     h3{
       font-size: 24px;
     }

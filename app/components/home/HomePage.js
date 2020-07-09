@@ -21,14 +21,49 @@ class HomePage extends React.Component {
 
     return (
       <div className="homePage">
-        <Grid>
-          <Row className="rowPadding">
-          <Carousel {...settings}>
-            <img src="../img/home1.jpg" />
-            <img src="../img/home2.jpg" />
-            </Carousel>
-          </Row>
+        {/*<Grid>*/}
+        {/*  <Row className="rowPadding">*/}
+        {/*  <Carousel {...settings}>*/}
+        {/*    <img src="../img/home1.jpg" />*/}
+        {/*    <img src="../img/home2.jpg" />*/}
+        {/*    </Carousel>*/}
+        {/*  </Row>*/}
+        {/*</Grid>*/}
 
+          <div className="bgContainer">
+            <Grid>
+              <Row className="rowPadding">
+                <Col xs={12}>
+                  <h1 className="center">🚨WIJ GAAN BEZORGEN‼🚨</h1>
+                  <p className="center">Omdat de regering besloten heeft dat wij als de Ster moeten sluiten vanwege het corona virus is de cafetaria alleen open om af te halen. Maar niet getreurd wij gaan de verse friet, hamburgers en de snacks ook bij jullie thuis bezorgen🚀!</p>
+                  <p className="center">Onze bezorg tijden zijn: <br/>
+                    Maandag en dinsdag gesloten <br/>
+                    Woensdag van 17.00 tot 20.00 <br/>
+                    donderdag van 12.00 tot 20.00 <br/>
+                    Vrijdag van 12.00 tot 20.00 <br/>
+                    Zaterdag van 12.00 tot 20.00 <br/>
+                    Zondag van 16.00 tot 20.00 <br />
+                  </p>
+                  <p className="center">Voor bestelling belt u naar: <br />
+                    ☎:  <a className="orange" href="tel:0735112547">073 511 25 47</a></p>
+                </Col>
+              </Row>
+              <Row className="rowPadding">
+                <Col xs={12}>
+                  <img src="../img/menu1.jpeg" />
+                </Col>
+                <Col xs={12}>
+                  <img src="../img/menu2.jpeg" />
+                </Col>
+                <Col xs={12}>
+                  <h2 className="center">🚨Nieuw bij de Ster!🚨</h2>
+                  <img src="../img/actie2.jpeg" />
+                </Col>
+              </Row>
+            </Grid>
+          </div>
+
+        <Grid>
           <Row className="rowPadding">
             <Col xs={4} >
             <IndexLinkContainer className="link-to" to="/cafetaria">
@@ -59,32 +94,6 @@ class HomePage extends React.Component {
               </IndexLinkContainer>
             </Col>
           </Row>
-
-        </Grid>
-        <div className="bgContainer">
-          <Grid>
-            <Row>
-              <Col xs={12}>
-                <h1>Carnaval 2020 bij de Ster</h1>
-              </Col>
-            </Row>
-            <Row className="rowPadding">
-              <Col xs={12}>
-                <p>Carnaval, HET feest van het jaar! Daar moet jij bij zijn geweest, en waar vier je dat beter als in de Ster in Nieuwkuijk? Precies! Vrijdag gaan wij los met Stuk TV, Tomcio en Dj Stefan de Hart. Zaterdag gaat het feestje maximaal door met Kalvijn en de Doorweekt Dj's! Scoor een combi ticket en betaal maar €10,-! Zo ben jij verzekerd van een onvergetelijke carnaval.</p>
-                <p>Kijk voor meer informatie op de agenda of bestel gelijk je tickets bij de ticket pagina!</p>
-              </Col>
-            </Row>
-            <Row className="rowPadding">
-              <Col sm={6} xs={12}>
-                <img src="../img/carnaval1.jpg" />
-               </Col>
-              <Col sm={6} xs={12}>
-                <img src="../img/carnaval2.jpg" />
-              </Col>
-            </Row>
-          </Grid>
-        </div>
-        <Grid>
 
           <Row className="rowPadding">
           <Carousel {...settings}>

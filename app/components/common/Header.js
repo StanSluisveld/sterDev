@@ -59,10 +59,6 @@ class Header extends React.Component {
                 <NavItem eventKey={2}>Over ons</NavItem>
               </LinkContainer>
 
-              <LinkContainer to="/ellefsteruren">
-                <NavItem eventKey={3}>11 Ster Uren</NavItem>
-              </LinkContainer>
-
               <LinkContainer to="/arrangementen">
                 <NavItem eventKey={4}>Arrangementen</NavItem>
               </LinkContainer>
