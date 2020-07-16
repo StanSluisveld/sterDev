@@ -41,7 +41,7 @@
     "copy-webpack-plugin": "^4.0.1",
     "cross-env": "^2.0.0",
     "css-loader": "^0.24.0",
-    "eslint": "^3.4.0",
+    "eslint": "^4.18.2",
     "eslint-plugin-import": "^1.14.0",
     "eslint-plugin-react": "^6.1.2",
     "eslint-watch": "^2.1.14",
